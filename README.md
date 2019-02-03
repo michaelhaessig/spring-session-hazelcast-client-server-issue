@@ -1,7 +1,7 @@
 
 # Spring Session Hazelcast Client-Server Code deployment issue sample
 
-Sample project for issue [spring-session](https://github.com/spring-projects/spring-session/issues/1319])
+Sample project for issue [spring-session](https://github.com/spring-projects/spring-session/issues/1319)
 
 ## Observed error
 The Code deployment configuration is active, verified by disabling it which triggers an error related to the code deployment setting.
