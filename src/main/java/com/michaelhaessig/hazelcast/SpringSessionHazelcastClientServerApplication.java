@@ -52,7 +52,7 @@ public class SpringSessionHazelcastClientServerApplication extends WebSecurityCo
         return new InMemoryUserDetailsManager(user);
     }
 
-	//@Bean
+	@Bean // comment out to disable hazelcast session auto config
 	public HazelcastInstance hazelcastInstance() {
 		ClientConfig clientConfig = new ClientConfig();
 		clientConfig.getNetworkConfig().addAddress("0.0.0.0:5701"); // connect to local server
